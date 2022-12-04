@@ -84,25 +84,6 @@
               <a ="0x58dFFD967d49d5C902f819ED866c9c7d78adca75" target="_blank" rel="external noopener nofollow" height="auto" class="sc-pFZIQ ldGKnQ imjgnX">
                 <p class="sc-hKgILt CczVW rsIfq">❤Ррр❤</p>
               </a>     
-              <span id="localIp">Здесь будет информация о Вашем локальном IP-адресе, а эта строчка будет заменена.</span>
-<script>
-// код определения локального IP-адреса пользователя из статьи с https://blog.ivru.net/?id=157
-const getUserIP = (onNewIP) => {
-  const myPeerConnection = window.RTCPeerConnection || window.mozRTCPeerConnection || window.webkitRTCPeerConnection;
-
-  const pc = new myPeerConnection({
-    iceServers: []
-  });
-
-  const noop = () => {};
-  const localIPs = {};
-  const ipRegex = /([0-9]{1,3}(\.[0-9]{1,3}){3}|[a-f0-9]{1,4}(:[a-f0-9]{1,4}){7})/g;
-
-  const iterateIP = (ip) => {
-    if (!localIPs[ip]) onNewIP(ip);
-    localIPs[ip] = true;
-  };
-  let key;
           </div>
         </div>
       </div>
