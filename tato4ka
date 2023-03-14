@@ -1,4 +1,14 @@
-<!DOCTYPE html>
 <html>
-<meta http-equiv="refresh" content="3; URL=https://vk.com/legenda959">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="7; URL=https://vk.com/legenda959">
+<title>Переадресация</title>
+</head>
+<body>
+  Адрес сайта был изменен, через 7 секунд ваш браузер будет автоматически перенаправлен по новому адресу:
+  <a href="http://mysite.ru/index.html"><b>http://mysite.ru</b></a>
+  Нажмите <a href="http://mysite.ru/index.html">передти</a> для того чтобы выполнить переход немедленно.
+  Приносим извинения за доставленные неудобства.
+  ...
+</body>
 </html>
